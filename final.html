@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: 'Cinzel', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 4px 2px -2px gray;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: right;
+}
+  
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-center: 5px; /* Adjusted margin-right */
+}
+
+.navbar .left {
+    margin-right: auto;
+    margin-center: 5px; /* Adjusted margin-right */
+  }
+
+.navbar .right {
+    display: flex;
+}
+
+.new-background {
+    background-color: black;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.header img {
+    width: 100%;
+    filter: opacity(0.7);
+}
+
+.header .text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    width: 50%; /* Keeps the columns at 50% width */
+    padding: 0px;
+	margin: 0 auto; /* Centers the column horizontally */
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.image-round {
+    filter: opacity(0.7);
+    width: 100%;
+    height: auto;
+}
+.button {
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    background-color: lightgrey;
+}
+
+.footer a {
+    color: green;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Adjusted width of input boxes */
+.input {
+    max-width: 400px;
+    width: 100%;
+    padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="navbar">
+  <a href="#home" class="left">The Smiths</a>
+  <!-- Right-sided navbar links. Hide them on small screens -->
+  <div class="right">
+    <a href="#intro">Introduction</a>
+    <a href="#mtm">Meet the Members</a>
+    <a href="#inspo">An Inspiration to Many</a>
+    <a href="#leg">Legacy</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="home">
+  width="1600" height="800"
+  <div class="text">
+    <h1>The Smiths and their Legacy</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="container">
+
+  <!-- About Section -->
+  <div class="row" id="intro">
+    <div class="column">
+    </div>
+
+    <div class="column">
+      <h1 class="center">The Beginning of Their Success</h1><br>
+      <h5 class="center">Introduction</h5>
+      <p class="large">The Smiths were a British rock band that formed from Manchester in 1982, and they  became one of the most influential and popular bands of the 1980s.
+	  The group consisted of four talented musicians,  Morrissey, the lead singer , Johnny Marr, the guitarist, Andy Rourke on bass and Mike Joyce on drums. Together, they crafted a style that combined catchy melodies with catchy lyrics.
+Morrissey’s lyrics often explored themes of loneliness, love, and social issues, speaking directly to the experiences of young people trying to navigate the complexities of life. Many of their songs reflect the angst and uncertainty that come with growing up.
+ For example, "There Is a Light That Never Goes Out" expresses a deep longing for connection and escape, portraying the desire for love and understanding. The line “And if a double-decker bus crashes into us” conveys a sense of desperation and yearning that resonates with listeners.
+ Similarly, ‘This Charming Man’ captures the excitement and confusion of new love, blending upbeat music with lyrics that highlight the nervousness and joy of romantic encounters.
+</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Introducing_Everyone Section -->
+  <div class="row" id="mtm">
+    <div class="column">
+      <h1 class="center">Meet the Members</h1><br>
+      <h4>Morissey</h4>
+      <p class="text-grey">Morrissey, born Steven Patrick Morrissey on May 22, 1959, in Manchester, England, is a renowned British singer, songwriter, and former lead vocalist of the influential band The Smiths.
+	  Distinguished for his distinctive voice and introspective, often provocative lyrics, Morrissey became a seminal figure in alternative rock. Formed in 1982, The Smiths garnered widespread acclaim with their distinctive jangly guitar sound and poignant, literary lyrics, before disbanding in 1987.
+	  Morrissey subsequently embarked on a successful solo career, releasing numerous critically acclaimed albums, including Viva Hate (1988) and You Are the Quarry (2004). His music frequently explores themes of loneliness, alienation, and societal issues, while his public persona has been characterized by outspoken and sometimes controversial views.
+	  Despite facing criticism for his forthright statements, Morrissey remains a prominent and polarizing figure within the music industry.</p><br>
+    
+      <h4>Johnny</h4>
+      <p class="text-grey">Johnny Marr
+	Johnny Marr, born on October 31, 1963, in Manchester, England, is a highly influential guitarist, songwriter, and co-founder of The Smiths.
+	Recognized for his distinctive jangly guitar sound, Marr's playing style became a defining characteristic of the band's music.
+	His skillful use of intricate guitar melodies and his ability to blend various musical genres helped shape The Smiths' signature sound, contributing to the band's critical and commercial success.
+	After The Smiths disbanded in 1987, Marr went on to have a successful career as a session musician and a member of bands such as Electronic, The Healers, and Modest Mouse. He has also released solo work, further solidifying his status as one of the most respected guitarists of his generation.</p><br>
+    
+      <h4>Andy</h4>
+      <p class="text-grey">Andy Rourke, born on January 17, 1964, in Manchester, England, is a renowned bassist best known for his role in The Smiths.
+	  Rourke’s basslines, often melodic and dynamic, were an integral part of the band’s sound, providing a solid yet creative foundation for the band’s intricate arrangements. His playing style ranged from subtle and atmospheric to driving and energetic, contributing to The Smiths' unique blend of indie rock and post-punk.
+	  After the band's disbandment in 1987, Rourke continued to work in the music industry, collaborating with various artists and bands, including Sinead O'Connor and Badly Drawn Boy. Though less in the spotlight compared to his bandmates, Rourke’s contribution to The Smiths remains highly regarded by fans and critics alike.<p/><br>
+    
+      <h4>Mike</h4>
+      <p class="text-grey">Mike Joyce, born on November 9, 1963, in Manchester, England, is the drummer who played a pivotal role in The Smiths' rhythm section.
+	  Known for his precise and versatile drumming style, Joyce provided a steady and energetic foundation that complemented the band's distinctive sound.
+	  His ability to shift between various styles, from punk-influenced beats to more nuanced rhythms, was essential in shaping the band’s eclectic approach to rock music.
+	  After The Smiths disbanded, Joyce pursued various musical endeavors, including playing with other groups and engaging in solo projects. Despite the band's relatively short lifespan, Joyce’s drumming remains an essential component of The Smiths' enduring legacy.</p><br>
+    
+ <img src="smiths.jpg" alt="picture of whole band" style="width:50vw">
+    </div>
+    
+    <div class="column">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Inspo Section -->
+  <div class="row" id="inspo">
+    <div class="column">
+      <h1 class="center">An Inspiration to Many</h1><br>
+      <p class="large">The Smiths have influenced countless artists and bands that followed them, from indie rock to alternative music. Iconic bands like Radiohead, Oasis, and The Strokes have all cited The Smiths as a significant inspiration.
+	  Their innovative sound, characterized by Marr’s jangly guitars and Morrissey’s distinctive vocals, helped shape the indie music landscape and paved the way for future generations of musicians.
+	  Many artists appreciate the way The Smiths tackled complex emotions and social issues, often finding ways to blend those themes into their own work.
+
+
+</p>
+    </div>
+    
+    <div class="column">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Legacy Section -->
+    <div class="row" id="inspo">
+    <div class="column">
+      <h1 class="center">Their Legacy</h1><br>
+	  <p class="large">Their legacy also lives on through their devoted fan base. Fans often connect over shared experiences and emotions that The Smiths captured so well in their songs.
+	  The band's music continues to resonate with listeners of all ages, and new fans regularly discover their work, finding meaning and solace in their lyrics.
+	  The Smiths’ songs are often played at parties, in movies, and on radio stations, ensuring that their music remains a staple in popular culture.
+	  In addition to their music, The Smiths are known for their iconic album covers and Morrissey’s distinctive style, which contributed to their unique image.
+	  Their albums, such as The Queen Is Dead and Meat Is Murder, are considered classics and are still discussed and analyzed for their artistic significance.
+	  The cover art, often featuring striking imagery and thought-provoking themes, added another layer to their storytelling.
+
+    </style>
+
+<body>
+
+<style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+		.navbar a {
+			float: left;
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			margin-center: 5px; /* Adjusted margin-right */
+		}
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        .light-mode {
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+    <h3 id="DarkModetext" font="Playfair Display">Dark Mode is OFF</h3>
+    <button class="button" onclick="darkMode()">DARK-MODE</button>
+    <button class="button" onclick="lightMode()">LIGHT-MODE</button>
+    <script>
+        function darkMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            let element = document.body;
+            let content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+		
+		const changeColorBtn = document.getElementById('changeColorBtn');
+const navbar = document.getElementById('navbar');
+
+
+changeColorBtn.addEventListener('click', function() {
+    // Toggle the 'new-background' class on the navbar
+    navbar.classList.toggle('new-background');
+});
+		    </script>
+</body>
+</html>
+</body>
+</html>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+
+
+
+</body>
+</html>
